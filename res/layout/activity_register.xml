@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    tools:context="com.example.login.LoginActivity" 
+    >
+    
+    <LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="130dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        >
+
+         <EditText
+             android:id="@+id/username"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="10dp"
+             android:background="@android:color/black"
+             android:alpha="0.6"
+             android:textColor="@android:color/white"
+             android:hint="username"
+             android:inputType="text"
+             android:padding="10dp"
+             android:singleLine="true" />
+         
+         <EditText
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+         android:background="@android:color/black"
+         android:layout_marginBottom="10dp"
+             android:alpha="0.6"
+             android:textColor="@android:color/white"
+        android:inputType="textPassword"
+         android:padding="10dp"
+        android:singleLine="true"
+        />
+         
+         <EditText
+        android:id="@+id/password1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="password again"
+         android:background="@android:color/black"
+             android:alpha="0.6"
+             android:textColor="@android:color/white"
+        android:inputType="textPassword"
+         android:padding="10dp"
+        android:singleLine="true"
+        />
+        
+         
+         <Button 
+             android:id="@+id/btnregister"
+             android:layout_width="210dp"
+             android:layout_height="wrap_content"
+             android:text="Sign up"
+             android:layout_gravity="center"
+             android:layout_marginTop="30dip"
+             android:background="@drawable/register"
+             android:textColor="@android:color/white"
+             />
+         
+        
+    </LinearLayout>
+   
+
+</RelativeLayout>
